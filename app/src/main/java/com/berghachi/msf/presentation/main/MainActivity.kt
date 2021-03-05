@@ -97,7 +97,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun deleteUser(user: User) {
-        if (user.hired == "N") {
+        if (user.hired == "Y") {
             val dialog = MaterialAlertDialogBuilder(this)
                 .setTitle(getString(R.string.delete))
                 .setMessage(getString(R.string.are_you_sure))
